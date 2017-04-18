@@ -5,9 +5,9 @@ import {
 
 const Title = () => {
     return (
-        <Slide transition={["zoom"]} bgColor="primary">
+        <div>
             Tests Automation
-        </Slide>
+        </div>
     );
 }
 

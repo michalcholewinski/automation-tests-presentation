@@ -2,12 +2,13 @@ import React from 'react';
 import {
     List,
     ListItem,
-    Slide
+    Heading
 } from "spectacle";
 
 const TypeOfTests = () => {
     return (
-        <Slide transition={["zoom"]} bgColor="primary">
+        <div>
+            <Heading size={6} textColor="secondary" caps>Test Types</Heading>
             <List>
                 <ListItem>Unit Tests</ListItem>
                 <ListItem>End-to-end tests</ListItem>
@@ -16,7 +17,7 @@ const TypeOfTests = () => {
                 <ListItem>Smoketests</ListItem>
                 <ListItem>Performance Tests</ListItem>
             </List>
-        </Slide>
+        </div>
     );
 }
 

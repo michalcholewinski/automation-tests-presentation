@@ -8,13 +8,13 @@ import {
 
 const GoalOfTesting = () => {
     return (
-        <Slide transition={["zoom"]} bgColor="primary">
-            <Heading size={6} textColor="primary" caps>Goal Of Testing</Heading>
+        <div>
+            <Heading size={6} textColor="secondary" caps>Goal Of Testing</Heading>
             <List>
                 <ListItem>Writing maintainable software</ListItem>
                 <ListItem>Providing fast automated regeression for refactors and small changes to the code</ListItem>
             </List>
-        </Slide>
+        </div>
     );
 }
 
