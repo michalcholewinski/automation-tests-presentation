@@ -1,5 +1,9 @@
 // Import React
 import React from "react";
+import Title from './slides/1_titleSlide';
+import GoalOfTesting from './slides/3_goalOfTesting';
+import TypeOfTests from './slides/4_typeOfTests';
+import Tdd from './slides/6_tdd';
 
 // Import Spectacle Core tags
 import {
@@ -80,6 +84,12 @@ export default class Presentation extends React.Component {
             <Cite>Author</Cite>
           </BlockQuote>
         </Slide>
+
+        <Title/>
+        <GoalOfTesting/>
+        <TypeOfTests/>
+        <Tdd/>
+
       </Deck>
     );
   }

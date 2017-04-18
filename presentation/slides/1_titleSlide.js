@@ -5,7 +5,7 @@ import {
 
 const Title = () => {
     return (
-        <Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
             Tests Automation
         </Slide>
     );

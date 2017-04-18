@@ -7,7 +7,7 @@ import {
 
 const TypeOfTests = () => {
     return (
-        <Slide>
+        <Slide transition={["zoom"]} bgColor="primary">
             <List>
                 <ListItem>Unit Tests</ListItem>
                 <ListItem>End-to-end tests</ListItem>
